@@ -1340,25 +1340,26 @@ video {
 }
 
 
-* {
-  --sb-track-color: #638594;
-  --sb-thumb-color: #1f1313;
+
+body {
+  --sb-track-color: #e1f0f7;
+  --sb-thumb-color: #a57070;
   --sb-size: 10px;
 
   scrollbar-color: var(--sb-thumb-color) 
                    var(--sb-track-color);
 }
 
-*::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: var(--sb-size) 
 }
 
-*::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
   background: var(--sb-track-color);
   border-radius: 10px;
 }
 
-*::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
   background: var(--sb-thumb-color);
   border-radius: 10px;
   
