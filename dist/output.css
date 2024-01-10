@@ -1338,3 +1338,28 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+
+* {
+  --sb-track-color: #638594;
+  --sb-thumb-color: #1f1313;
+  --sb-size: 10px;
+
+  scrollbar-color: var(--sb-thumb-color) 
+                   var(--sb-track-color);
+}
+
+*::-webkit-scrollbar {
+  width: var(--sb-size) 
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+  }
